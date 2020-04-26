@@ -1,0 +1,120 @@
+/*Media
+===================*/
+@media (max-width: 1200px) {
+  /*Nav*/
+  .nav {
+    display: none; }
+
+  /*Burger*/
+  .burger {
+    display: block; }
+
+  /*Intro*/
+  .intro .intro__title {
+    font-size: 40px; }
+  .intro .btn {
+    margin-bottom: 20px; }
+
+  /*Works*/
+  .works .works__item {
+    width: 50%; } }
+@media (max-width: 991px) {
+  /*Nav*/
+  .nav {
+    display: none; }
+
+  /*Burger*/
+  .burger {
+    display: block; }
+
+  /*Intro*/
+  .intro .intro__title {
+    font-size: 40px; }
+
+  /*Features*/
+  .features .features__item {
+    width: 50%; }
+
+  /*Team*/
+  .team .team__inner .team__item {
+    width: 50%;
+    text-align: center; }
+  .team .team__inner .team__photo {
+    margin-left: auto;
+    margin-right: auto; }
+  .team .team__inner .social {
+    justify-content: center; }
+
+  /*Reviews*/
+  .reviews .reviews__item .reviews__photo {
+    width: 100%;
+    overflow: hidden; }
+    .reviews .reviews__item .reviews__photo .reviews__img {
+      min-width: 991px;
+      right: -15px; }
+  .reviews .reviews__item .reviews__content {
+    width: 100%;
+    margin: 20px 0 40px; }
+    .reviews .reviews__item .reviews__content .reviews__text {
+      font-size: 25px; } }
+@media (max-width: 767px) {
+  /*Nav*/
+  .nav {
+    display: none; }
+
+  /*Burger*/
+  .burger {
+    display: block; }
+
+  /*Intro*/
+  .intro {
+    height: auto;
+    padding-top: 130px; }
+    .intro .intro__title {
+      font-size: 30px; }
+    .intro .intro__subtitle {
+      font-size: 16px;
+      margin-bottom: 30px; }
+
+  /*Features*/
+  .features {
+    margin: 40px 0; }
+    .features .features__item {
+      width: 100%; }
+
+  /*Works*/
+  .works .works__item {
+    width: 100%; }
+
+  /*Team*/
+  .team {
+    margin: 60px 30px; }
+    .team .team__inner .team__item {
+      width: 100%;
+      text-align: center; }
+
+  /*Button*/
+  .button--long {
+    min-height: 260px; }
+
+  /*Download*/
+  .download {
+    margin: 50px 0; }
+    .download .download__title {
+      font-size: 24px; }
+
+  /*Footer*/
+  .footer .footer__inner {
+    padding: 30px 0; }
+    .footer .footer__inner .footer__block {
+      width: 100%;
+      margin-bottom: 30px; }
+      .footer .footer__inner .footer__block:last-child {
+        margin-bottom: 0; } }
+@media (max-width: 414px) {
+  /*Reviews*/
+  .reviews .reviews__item .reviews__photo .reviews__img {
+    min-width: 991px;
+    right: -150px; } }
+
+/*# sourceMappingURL=media.css.map */
